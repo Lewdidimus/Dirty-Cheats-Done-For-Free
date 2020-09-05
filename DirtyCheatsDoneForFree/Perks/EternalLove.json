@@ -1,0 +1,14 @@
+{
+    "name": "True Love?!",
+    "description": "The Ancient Love Letter feels as if it had always been addressed to you. Increases the damage you deal by 609%.",
+
+    "LevelReq": "0",
+    "PerkReq": [ ""],
+    "StatReq": [ ""],
+    "StatReqAmount": [ "0"],
+
+    "PerkType": [ "DamageBoost"],
+    "EffectPower": [ "609"],
+
+    "PlayerCanPurchase": "No"
+}

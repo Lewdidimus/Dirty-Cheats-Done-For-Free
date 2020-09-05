@@ -1,0 +1,48 @@
+{
+    "name": "Ancient Love Letter",
+    "itemType": "Accessory",
+    "cost": "0",
+    "requires": [""],
+    "perks": ["True Love?!"],
+    "descrip": "A piece of parchment that bears no sign of wear and feels warm to the touch. The writing is indecipherable, but you feel your heart swell in your chest. You could take on anything!",
+
+    "hp": "304",
+    "ep": "304",
+    "sp": "34",
+
+    "Exp": "0",
+    "Power": "69",
+    "Technique": "69",
+    "Intelligence": "69",
+    "Allure": "69",
+    "Willpower": "69",
+    "Luck": "69",
+
+    "statusEffect": "None",
+    "statusChance": "0",
+    "statusPotency": "0",
+
+    "BodySensitivity": { "Sex": "-100",
+                         "Ass": "-100",
+                         "Breasts": "-100",
+                         "Mouth": "-100",
+                         "Seduction": "-100",
+                         "Magic": "-100",
+                         "Pain": "-100",
+                         "Holy": "-100",
+                         "Unholy": "-100"
+                       },
+
+    "resistancesStatusEffects": {
+                                    "Stun": "100",
+                                    "Charm": "100",
+                                    "Aphrodisiac": "100",
+                                    "Restraints": "100",
+                                    "Sleep": "100",
+                                    "Trance": "100",
+                                    "Paralysis": "100"
+                                },
+
+    "useOutcome": "",
+    "useMiss": ""
+}

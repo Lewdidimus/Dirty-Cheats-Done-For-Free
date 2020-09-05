@@ -1,0 +1,20 @@
+{
+    "name": "Mystic Forest",
+    "exploreTitle": "Addition",
+    "Monsters": [""],
+    "MonsterGroups": [],
+    "Events": ["Mysterious Elf"],
+    "Quests": [""],
+    "Adventures": [""],
+    "Treasure": [
+                    {
+                        "Common": [""]
+                    },
+                    {
+                        "Uncommon": [""]
+                    },
+                    {
+                        "Rare": [""]
+                    }
+                ]
+}

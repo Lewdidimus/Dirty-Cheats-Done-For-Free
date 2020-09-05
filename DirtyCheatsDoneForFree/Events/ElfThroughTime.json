@@ -1,0 +1,117 @@
+{
+    "name": "Mysterious Elf",
+    "CardType": "Event",
+    "CardLimit": "4",
+    "Description": "Someone's waiting for you at the spot marked by Amber...",
+    "requires": [],
+    "requiresEvent": [
+                        {
+                            "NameOfEvent": "Mysterious Elf",
+                            "Progress": "-99",
+                            "ChoiceNumber": "1",
+                            "Choice": "Go"
+                        }
+                     ],
+    "Speakers": [
+                    {
+                        "name": "TimeElf",
+                        "postName": "",
+                        "SpeakerType": "Monster"
+                    }
+                ],
+    "EventText": [
+                    {
+                        "NameOfScene": "EventStart",
+                        "theScene": [
+                                        "IfChoice", "2", "Met",
+                                            "Rewind",
+                                        "DisplayCharacters",
+                                        "TimeElf",
+                                        "EndLoop",
+                                        "CallSceneThenReturn",
+                                        "NoTimeToExplain",
+                                        "CombatEncounter",
+                                        "TimeElf",
+                                        "StartCombat",
+                                        "SetChoice", "2", "Met"
+                                    ]
+                    },
+                    {
+                        "NameOfScene": "Rewind",
+                        "theScene": [
+                                        "DisplayCharacters",
+                                        "TimeElf",
+                                        "EndLoop",
+                                        "CallNextSceneJumpThenReturn",
+                                        "JumpToRandomScene",
+                                            "NoTimeToExplain",
+                                            "Waifunator",
+                                            "SaveTheFuture",
+                                            "Awkward",
+                                            "Waifunator2",
+                                            "ElfCircus",
+                                            "Elfward",
+                                        "EndLoop",
+                                        "CombatEncounter",
+                                        "TimeElf",
+                                        "StartCombat"
+                                    ]
+                    },
+                            {
+                                "NameOfScene": "NoTimeToExplain",
+                                "theScene": [
+                                                "ChangeImageFor", "1", "Flustered",
+                                                "Speak", "Elf",
+                                                "{ThePlayerName}, you're finally here! There's no time to explain, I'm your wife from the future! I need to transfer knowledge to you by battlefucking!"
+                                            ]
+                            },
+                            {
+                                "NameOfScene": "Waifunator",
+                                "theScene": [
+                                                "ChangeImageFor", "1", "Lewd",
+                                                "Speak", "Elf",
+                                                "Cum inside me if you want to live!"
+                                            ]
+                            },
+                            {
+                                "NameOfScene": "SaveTheFuture",
+                                "theScene": [
+                                                "ChangeImageFor", "1", "Shock Blush",
+                                                "Speak", "Elf",
+                                                "Hey {ThePlayerName} I know this sounds crazy, but we're married... or will be! We need to fuck to save the future!"
+                                            ]
+                            },
+                            {
+                                "NameOfScene": "Awkward",
+                                "theScene": [
+                                                "ChangeImageFor", "1", "Flustered",
+                                                "Speak", "Elf",
+                                                "Hi {ThePlayerName}, you don't know me yet but we need to make love! Th-that sounds awkward, but don't worry we'll get married! Ahhh I'm making it worse!"
+                                            ]
+                            },
+                            {
+                                "NameOfScene": "Waifunator2",
+                                "theScene": [
+                                                "ChangeImageFor", "1", "Lustful",
+                                                "Speak", "Elf",
+                                                "{ThePlayerName}, give me your clothes, your dick, and your cum."
+                                            ]
+                            },
+                            {
+                                "NameOfScene": "ElfCircus",
+                                "theScene": [
+                                                "ChangeImageFor", "1", "Dominant",
+                                                "Speak", "Elf",
+                                                "There's no time Toulouse! Nobody expects the Elven Cock Requisition!"
+                                            ]
+                            },
+                            {
+                                "NameOfScene": "Elfward",
+                                "theScene": [
+                                                "ChangeImageFor", "1", "Flustered",
+                                                "Speak", "Elf",
+                                                "Oh goddess you're still hot, {ThePlayerName}. Uhm... I-I'm your wife from the future... I, ah, uh w-what was I supposed to say?! P-Please fuck me!"
+                                            ]
+                            }
+                 ]
+}

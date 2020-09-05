@@ -1,0 +1,104 @@
+{
+    "name": "TimeElfDefeated",
+    "CardType": "",
+    "CardLimit": "0",
+    "Description": "",
+    "requires": [ ""],
+    "Speakers": [
+                  {
+                    "name": "TimeElf",
+                    "postName": "",
+                    "SpeakerType": "Monster"
+                  }
+                ],
+    "EventText": [
+                    {
+                        "NameOfScene": "EventStart",
+                        "theScene": [
+                                        "DisplayCharacters",
+                                        "TimeElf",
+                                        "EndLoop",
+                                        "ChangeImageFor", "1", "Lustful",
+                                        "You catch the elf as her legs wobble from post-orgasmic bliss, and she immediately presses her lips against yours in a tender and loving kiss. She then caresses your cheek, gazing into your eyes.",
+                                        "CallNextSceneJumpThenReturn",
+                                        "JumpToRandomScene",
+                                            "SoGood",
+                                            "Recursive",
+                                            "Waifunator",
+                                            "Warning",
+                                            "TimeThief",
+                                            "Loving",
+                                            "Message",
+                                            "DejaVu",
+                                        "EndLoop",
+                                        "DisplayCharacters",
+                                        "EndLoop",
+                                        "She disappears."
+                                    ]
+                    },
+                            {
+                                "NameOfScene": "SoGood",
+                                "theScene": [
+                                                "ChangeImageFor", "1", "Lewd",
+                                                "Speak", "Elf",
+                                                "Ahhh~ You're so good, I can never resist you.♥ Although... you'll still get even better!♥"
+                                            ]
+                            },
+                            {
+                                "NameOfScene": "Recursive",
+                                "theScene": [
+                                                "ChangeImageFor", "1", "Lustful",
+                                                "Speak", "Elf",
+                                                "I've got to go now, love. But you might still meet other recursive loops of me."
+                                            ]
+                            },
+                            {
+                                "NameOfScene": "Waifunator",
+                                "theScene": [
+                                                "ChangeImageFor", "1", "Smile",
+                                                "Speak", "Elf",
+                                                "Oh honey, I can't wait to be with you again.♥ I'll be back!♥"
+                                            ]
+                            },
+                            {
+                                "NameOfScene": "Warning",
+                                "theScene": [
+                                                "ChangeImageFor", "1", "Shock",
+                                                "Speak", "Elf",
+                                                "Oh! I almost forgot! Whatever you do, watch out for-"
+                                            ]
+                            },
+                            {
+                                "NameOfScene": "TimeThief",
+                                "theScene": [
+                                                "ChangeImageFor", "1", "Incoherently Lewd",
+                                                "Speak", "Elf",
+                                                "Mmmh.♥ I wish I could stay longer... Wait, what if I just took you back to the futu-"
+                                            ]
+                            },
+                            {
+                                "NameOfScene": "Loving",
+                                "theScene": [
+                                                "ChangeImageFor", "1", "Smile",
+                                                "Speak", "Elf",
+                                                "I love you.♥"
+                                            ]
+                            },
+                            {
+                                "NameOfScene": "Message",
+                                "theScene": [
+                                                "ChangeImageFor", "1", "Flustered",
+                                                "Speak", "Elf",
+                                                "Hey, if you ever meet the me from this timeline, tell her-"
+                                            ]
+                            },
+                            {
+                                "NameOfScene": "DejaVu",
+                                "theScene": [
+                                                "ChangeImageFor", "1", "Shock Blush",
+                                                "Speak", "Elf",
+                                                "You know, I feel like I've been in this place before... Deja V-"
+                                            ]
+                            }
+                 ]
+}
