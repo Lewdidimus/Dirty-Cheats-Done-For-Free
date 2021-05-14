@@ -599,14 +599,14 @@
                                       ]
                         },
                         {
-                            "lineTrigger": "onOrgasm",
+                            "lineTrigger": "OnOrgasm",
                             "move": "Sex",
                             "theText": [ "|f|ChangeImageFor|/|Ahegao|n|'O-Oh!♥ Yes!♥ Your cock is the BESSSTTT!♥'",
                                         "|f|ChangeImageFor|/|Ahegao|n|'My lover's cock♥ is too♥ stronNNGGG!♥♥♥'"
                                       ]
                         },
                         {
-                            "lineTrigger": "onOrgasm",
+                            "lineTrigger": "OnOrgasm",
                             "move": "",
                             "theText": [ "|f|ChangeImageFor|/|Incoherently Lewd|n|'Ah!♥ Oh no!♥ Y-You're going t-to make me cuuUUMMMM!♥'",
                                         "|f|ChangeImageFor|/|Incoherently Lewd|n|'I-I can't hold out anymore! AAAHH!♥'"
