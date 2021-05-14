@@ -1,6 +1,7 @@
 {
     "name": "Mystic Forest",
-    "exploreTitle": "Addition",
+    "exploreTitle": "Mystic Forest",
+    "Addition": "Yes",
     "Monsters": [""],
     "MonsterGroups": [],
     "Events": ["Mysterious Elf"],
